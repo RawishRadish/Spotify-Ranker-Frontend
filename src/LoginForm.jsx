@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from './context/UserAuthContext';
 import { Link, useNavigate } from 'react-router-dom';
-import LogoNoText from './assets/LogoNoText.svg?react';
 
 const LoginForm = () => {
     const navigate = useNavigate();
